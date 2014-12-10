@@ -10,7 +10,7 @@ Homepage: http://wiki.ros.org/std_msgs
 
 Package: libstd-msgs-dev
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, message-runtime
 Description: Header for Standard ROS Messages
  std_msgs contains wrappers for ROS primitive types, which are documented in
  the msg specification. It also contains the Empty type, which is useful for
