@@ -2,7 +2,7 @@ Source: std-msgs
 Section: libdevel
 Priority: optional
 Maintainer: Jochen Sprickerhof <debian@jochen.sprickerhof.de>
-Build-Depends: debhelper (>= 9), cmake, message-generation
+Build-Depends: debhelper (>= 9), cmake, dh-python, message-generation
 Standards-Version: 3.9.6
 Homepage: http://wiki.ros.org/std_msgs
 #Vcs-Git: git://anonscm.debian.org/collab-maint/std-msgs.git
@@ -21,7 +21,7 @@ Description: Header for Standard ROS Messages
 Package: python-std-msgs
 Section: python
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
 Description: Header for Standard ROS Messages
  std_msgs contains wrappers for ROS primitive types, which are documented in
  the msg specification. It also contains the Empty type, which is useful for
