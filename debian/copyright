@@ -12,7 +12,7 @@ License: <special license>
  <Including paragraphs>
 
 Files: debian/*
-Copyright: 20014, Jochen Sprickerhof <debian@jochen.sprickerhof.de>
+Copyright: 2014, Jochen Sprickerhof <debian@jochen.sprickerhof.de>
 License: BSD-3-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
