@@ -2,7 +2,7 @@ Source: std-msgs
 Section: libdevel
 Priority: optional
 Maintainer: Jochen Sprickerhof <debian@jochen.sprickerhof.de>
-Build-Depends: debhelper (>= 9), cmake, dh-python, message-generation
+Build-Depends: debhelper (>= 9), cmake, dh-python, message-generation, catkin
 Standards-Version: 3.9.6
 Homepage: http://wiki.ros.org/std_msgs
 #Vcs-Git: git://anonscm.debian.org/collab-maint/std-msgs.git
