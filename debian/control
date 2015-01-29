@@ -8,8 +8,8 @@ Uploaders: Thomas Moulard <thomas.moulard@gmail.com>,
 Build-Depends: debhelper (>= 9), cmake, dh-python, message-generation, catkin
 Standards-Version: 3.9.6
 Homepage: http://wiki.ros.org/std_msgs
-#Vcs-Git: git://anonscm.debian.org/collab-maint/std-msgs.git
-#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/std-msgs.git;a=summary
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=debian-science/packages/ros/std-msgs.git
+Vcs-Git: git://anonscm.debian.org/debian-science/packages/ros/std-msgs.git
 
 Package: libstd-msgs-dev
 Architecture: all
