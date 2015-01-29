@@ -1,5 +1,22 @@
-std-msgs (0.5.9-1) unstable; urgency=low
+std-msgs (0.5.9-1) UNRELEASED; urgency=medium
 
+  [ Jochen Sprickerhof ]
+  * Update packing copyright
+  * Add lintion-overrides
+  * Split into C++/Python/LISP packages
+  * Update run dependecies
+  * Update dependencies
+  * Add watch file
+  * Fix copyright year
+  * Add catkin build dependency
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
- -- Jochen Sprickerhof <debian@jochen.sprickerhof.de>  Tue, 09 Dec 2014 22:08:15 +0100
+  [ Leopold Palomo-Avellaneda ]
+  * Updated Uploaders and Maintainer field
+  * Added VCS fields
+  * Updated copyright
+  * Updated Python dependencies
+  * Updated Description field
+
+ -- Jochen Sprickerhof <debian@jochen.sprickerhof.de>  Thu, 29 Jan 2015 16:48:37 +0100
+
