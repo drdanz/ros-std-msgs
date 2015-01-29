@@ -14,7 +14,7 @@ Vcs-Git: git://anonscm.debian.org/debian-science/packages/ros/std-msgs.git
 Package: libstd-msgs-dev
 Architecture: all
 Depends: ${misc:Depends}, message-runtime
-Description: Header for Standard ROS Messages
+Description: C/C++ headers for Standard ROS Messages
  std_msgs contains wrappers for ROS primitive types, which are documented in
  the msg specification. It also contains the Empty type, which is useful for
  sending an empty signal.
@@ -25,7 +25,7 @@ Package: python-std-msgs
 Section: python
 Architecture: all
 Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
-Description: Header for Standard ROS Messages
+Description: Python code for Standard ROS Messages,
  std_msgs contains wrappers for ROS primitive types, which are documented in
  the msg specification. It also contains the Empty type, which is useful for
  sending an empty signal.
@@ -36,7 +36,7 @@ Package: cl-std-msgs
 Section: lisp
 Architecture: all
 Depends: ${misc:Depends}
-Description: Header for Standard ROS Messages
+Description: LISP code for Standard ROS Messages
  std_msgs contains wrappers for ROS primitive types, which are documented in
  the msg specification. It also contains the Empty type, which is useful for
  sending an empty signal.
