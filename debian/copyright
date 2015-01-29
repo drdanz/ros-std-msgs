@@ -1,18 +1,12 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: std-msgs
-Source: <url://example.com>
+Upstream-Name: std_msgs
+Upstream-Contact: Tully Foote <tfoote@osrfoundation.org>
+Source: http://wiki.ros.org/std_msgs
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
-License: <special license>
- <Put the license of the package here indented by 1 space>
- <This follows the format of Description: lines in control file>
- .
- <Including paragraphs>
+Copyright: 2011-2015 Willow Garage, Inc.
+License: BSD-3-clause
 
-Files: debian/*
-Copyright: 2014, Jochen Sprickerhof <debian@jochen.sprickerhof.de>
 License: BSD-3-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
@@ -24,7 +18,7 @@ License: BSD-3-clause
     copyright notice, this list of conditions and the following
     disclaimer in the documentation and/or other materials provided
     with the distribution.
-  * Neither the name of copyright holder nor the names of its
+  * Neither the name of Willow Garage, Inc. nor the names of its
     contributors may be used to endorse or promote products derived
     from this software without specific prior written permission.
  .
@@ -40,3 +34,10 @@ License: BSD-3-clause
  LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
  ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  POSSIBILITY OF SUCH DAMAGE.
+
+Files: debian/*
+Copyright: 2015, Thomas Moulard <thomas.moulard@gmail.com>,
+                 Jochen Sprickerhof <debian@jochen.sprickerhof.de>,
+           	 Leopold Palomo-Avellaneda <leo@alaxarxa.net>
+License: BSD-3-clause
+ 
