@@ -1,4 +1,4 @@
-std-msgs (0.5.9-1) UNRELEASED; urgency=medium
+ros-std-msgs (0.5.9-1) UNRELEASED; urgency=medium
 
   [ Jochen Sprickerhof ]
   * Update packing copyright
