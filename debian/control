@@ -14,31 +14,29 @@ Vcs-Git: git://anonscm.debian.org/debian-science/packages/ros/ros-std-msgs.git
 Package: libstd-msgs-dev
 Architecture: all
 Depends: ${misc:Depends}, message-runtime
-Description: C/C++ headers for Standard ROS Messages
- std_msgs contains wrappers for ROS primitive types, which are documented in
- the msg specification. It also contains the Empty type, which is useful for
+Description: C/C++ headers for Standard Robot OS Messages
+ This package is part of Robot OS (ROS). It contains development C++
+ headers for the ROS std_msgs library. This library provides wrappers
+ for ROS primitive types, which are documented in the msg
+ specification. It also contains the Empty type, which is useful for
  sending an empty signal.
- .
- This package contains the generated C++ headers.
 
 Package: python-std-msgs
 Section: python
 Architecture: all
 Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
-Description: Python code for Standard ROS Messages,
- std_msgs contains wrappers for ROS primitive types, which are documented in
- the msg specification. It also contains the Empty type, which is useful for
- sending an empty signal.
- .
- This package contains the generated Python package.
+Description: Python interface for Standard Robot OS Messages
+ This package is part of Robot OS (ROS). It contains the python
+ interface to libstd-msgs, which contains wrappers for ROS primitive
+ types, which are documented in the msg specification. It also
+ contains the Empty type, which is useful for sending an empty signal.
 
 Package: cl-std-msgs
 Section: lisp
 Architecture: all
 Depends: ${misc:Depends}
-Description: LISP code for Standard ROS Messages
- std_msgs contains wrappers for ROS primitive types, which are documented in
- the msg specification. It also contains the Empty type, which is useful for
- sending an empty signal.
- .
- This package contains the generated LISP library.
+Description: LISP interface for Standard Robot OS Messages
+ This package is part of Robot OS (ROS). It contains the LISP
+ interface for libstd-msgs, which contains wrappers for ROS primitive
+ types, which are documented in the msg specification. It also
+ contains the Empty type, which is useful for sending an empty signal.
