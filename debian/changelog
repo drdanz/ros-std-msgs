@@ -9,7 +9,7 @@ ros-std-msgs (0.5.9-1) UNRELEASED; urgency=medium
   * Add watch file
   * Fix copyright year
   * Add catkin build dependency
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (Closes: #804038)
 
   [ Leopold Palomo-Avellaneda ]
   * Updated Uploaders and Maintainer field
