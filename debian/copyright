@@ -4,7 +4,7 @@ Upstream-Contact: Tully Foote <tfoote@osrfoundation.org>
 Source: http://wiki.ros.org/std_msgs
 
 Files: *
-Copyright: 2011-2015 Willow Garage, Inc.
+Copyright: 2009 Willow Garage, Inc.
 License: BSD-3-clause
 
 License: BSD-3-clause
