@@ -1,4 +1,4 @@
-ros-std-msgs (0.5.9-1) UNRELEASED; urgency=medium
+ros-std-msgs (0.5.9-1) unstable; urgency=medium
 
   [ Jochen Sprickerhof ]
   * Update packing copyright
@@ -18,5 +18,4 @@ ros-std-msgs (0.5.9-1) UNRELEASED; urgency=medium
   * Updated Python dependencies
   * Updated Description field
 
- -- Jochen Sprickerhof <debian@jochen.sprickerhof.de>  Thu, 29 Jan 2015 16:48:37 +0100
-
+ -- Jochen Sprickerhof <debian@jochen.sprickerhof.de>  Wed, 18 Nov 2015 22:37:21 +0000
