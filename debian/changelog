@@ -1,3 +1,10 @@
+ros-std-msgs (0.5.9-2) unstable; urgency=medium
+
+  * Convert to new catkin with multiarch
+  * Adopt to {ros-}message-{generation,runtime}
+
+ -- Jochen Sprickerhof <debian@jochen.sprickerhof.de>  Tue, 24 Nov 2015 18:49:12 +0100
+
 ros-std-msgs (0.5.9-1) unstable; urgency=medium
 
   [ Jochen Sprickerhof ]
