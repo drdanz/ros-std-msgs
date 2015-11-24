@@ -5,7 +5,7 @@ Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.
 Uploaders: Thomas Moulard <thomas.moulard@gmail.com>,
            Jochen Sprickerhof <debian@jochen.sprickerhof.de>,
            Leopold Palomo-Avellaneda <leo@alaxarxa.net>
-Build-Depends: debhelper (>= 9), message-generation, catkin (>> 0.6.16-2), python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3)
+Build-Depends: debhelper (>= 9), ros-message-generation, catkin (>> 0.6.16-2), python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3)
 Standards-Version: 3.9.6
 Homepage: http://wiki.ros.org/std_msgs
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=debian-science/packages/ros/ros-std-msgs.git
@@ -13,7 +13,7 @@ Vcs-Git: git://anonscm.debian.org/debian-science/packages/ros/ros-std-msgs.git
 
 Package: libstd-msgs-dev
 Architecture: all
-Depends: ${misc:Depends}, message-runtime
+Depends: ${misc:Depends}, ros-message-runtime
 Description: C/C++ headers for Standard Robot OS Messages
  This package is part of Robot OS (ROS). It contains development C++
  headers for the ROS std_msgs library. This library provides wrappers
