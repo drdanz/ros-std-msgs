@@ -1,3 +1,9 @@
+ros-std-msgs (0.5.10-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.5.10
+
+ -- Jochen Sprickerhof <debian@jochen.sprickerhof.de>  Sun, 19 Jun 2016 09:14:24 +0200
+
 ros-std-msgs (0.5.9-2) unstable; urgency=medium
 
   * Convert to new catkin with multiarch
