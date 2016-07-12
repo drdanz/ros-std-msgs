@@ -1,3 +1,9 @@
+ros-std-msgs (0.5.10-2) unstable; urgency=medium
+
+  * Rebuild because of a change in ros-genlisp.
+
+ -- Jochen Sprickerhof <debian@jochen.sprickerhof.de>  Tue, 12 Jul 2016 07:49:57 +0200
+
 ros-std-msgs (0.5.10-1) unstable; urgency=medium
 
   * Imported Upstream version 0.5.10
