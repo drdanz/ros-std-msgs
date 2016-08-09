@@ -11,9 +11,21 @@ Homepage: http://wiki.ros.org/std_msgs
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=debian-science/packages/ros/ros-std-msgs.git
 Vcs-Git: git://anonscm.debian.org/debian-science/packages/ros/ros-std-msgs.git
 
+Package: ros-std-msgs
+Section: devel
+Architecture: all
+Depends: ${misc:Depends}
+Description: Message definitions for Standard Robot OS Messages
+ This package is part of Robot OS (ROS). It contains message
+ definitions for the ROS std_msgs library, which contains wrappers for
+ ROS primitive types, which are documented in the msg specification. It
+ also contains the Empty type, which is useful for sending an empty
+ signal.
+
 Package: libstd-msgs-dev
 Architecture: all
-Depends: ${misc:Depends}, ros-message-runtime
+Depends: ${misc:Depends}, ros-message-runtime,
+ ros-std-msgs (= ${source:Version})
 Description: C/C++ headers for Standard Robot OS Messages
  This package is part of Robot OS (ROS). It contains development C++
  headers for the ROS std_msgs library. This library provides wrappers
@@ -24,7 +36,8 @@ Description: C/C++ headers for Standard Robot OS Messages
 Package: python-std-msgs
 Section: python
 Architecture: all
-Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends},
+ ros-std-msgs (= ${source:Version})
 Description: Python interface for Standard Robot OS Messages
  This package is part of Robot OS (ROS). It contains the python
  interface to libstd-msgs, which contains wrappers for ROS primitive
@@ -34,7 +47,8 @@ Description: Python interface for Standard Robot OS Messages
 Package: cl-std-msgs
 Section: lisp
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
+ ros-std-msgs (= ${source:Version})
 Description: LISP interface for Standard Robot OS Messages
  This package is part of Robot OS (ROS). It contains the LISP
  interface for libstd-msgs, which contains wrappers for ROS primitive
